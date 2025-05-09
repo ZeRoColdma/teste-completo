@@ -18,7 +18,7 @@ export async function startServer() {
     await sequelize.sync({ alter: true });
 
   } catch (error) {
-    console.error("❌ Erro na conexão com o banco:", error);
+    console.error("Erro na conexão com o banco:", error);
   }
 }
 
